@@ -1,0 +1,28 @@
+/* Responsividade */
+@media (max-width: 768px) {
+    #player {
+      padding: 10px;
+      border-radius: 5px;
+    }
+  
+    .album-cover-container {
+      display: flex;
+      justify-content: center;
+    }
+  
+    #albumCover {
+      width: 150px;
+    }
+  
+    .controls button {
+      font-size: 1.2rem;
+    }
+  
+    .progress {
+      height: 8px;
+    }
+  
+    .btn-outline-light, .btn-outline-danger {
+      padding: 8px 16px;
+    }
+  }  
